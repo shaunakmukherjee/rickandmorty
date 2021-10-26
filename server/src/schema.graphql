@@ -1,0 +1,61 @@
+type Query {
+    info: String!
+    feed: [Favourites!]!
+    character(id: ID!): Characters
+    allUsers: [User]!
+    favsbyUser: [Favourites]
+    charactersByIds(ids: [ID!]!): [Characters!]!
+    charactersPerPage(pageNumber: Int) : [Characters!]!
+  }
+
+type Characters{
+  id: ID!
+  name: String!
+  status: String!
+  gender: String
+  species: String!
+  episode: [Episode]
+  image: String!
+  location: Dimension
+  origin: Dimension
+}
+
+type Episode{
+  id: ID
+  name: String!
+  air_date: String!
+  episode: String!
+}
+
+type Dimension{
+  id: ID
+  dimension: String
+}
+
+type Mutation {
+        login(username: String!): User
+        makeFavourite(favId: ID!): UpdateResponse
+}
+
+ type UpdateResponse {
+    success: Boolean!
+    message: String
+    favourite: Characters
+  }
+
+type Favourites {
+      favId: ID!
+      userId: String
+  }
+
+type AuthPayload {
+  token: String
+  user: User
+}
+
+type User {
+  id: ID!
+  username: String!
+  token: String
+  favourites: [Favourites!]!
+}
