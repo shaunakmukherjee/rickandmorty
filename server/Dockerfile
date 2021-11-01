@@ -7,7 +7,7 @@ LABEL maintainer = ["shaunak.mukherjee94@gmail.com"]
 WORKDIR /app
 
 COPY package.json .
-COPY yarn.lock .
+
 RUN yarn install
 
 COPY . .
