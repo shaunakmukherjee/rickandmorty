@@ -1,0 +1,36 @@
+{
+  "name": "coding-challenge-frontend-engineer-m",
+  "version": "1.0.0",
+  "description": "Highsnobiety's coding challenge",
+  "main": "index.js",
+  "engine": "12.13.1",
+  "scripts": {
+    "start": "webpack-dev-server --host 0.0.0.0 --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "graphql": "^15.4.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.2.5",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.0.3",
+    "@mui/material": "^5.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-loader": "^4.3.11",
+    "react-router-dom": "^5.3.0"
+  }
+}
