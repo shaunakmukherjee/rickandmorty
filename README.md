@@ -1,5 +1,5 @@
 # Hi!
-This is my homage to the incredible series that is, Rick and Morty, as per Highsnobiety's coding challenge.
+This is my homage to the incredible series that is, Rick and Morty.
 
 It exposes a **GraphQL** Data Source and renders that with a **ReactJS** and **Material UI** frontend UI/UX.
 
