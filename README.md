@@ -14,6 +14,19 @@ All data, as mentioned, is taken from the fantastic Rick and Morty API.
 - Pagination through page numbers from first to last index API
 - Dockerization (**bonus**) through docker-compose, making it much easier to containerize and view the app.
 
+## Screenshots
+
+![Login Screen (Dark mode ON?)](https://user-images.githubusercontent.com/22137960/149924958-02fca18b-790a-487a-a92f-af49912b3b24.png)
+
+![Look Morty, all these characters!](https://user-images.githubusercontent.com/22137960/149924967-e5aa97c8-184e-4dfc-81c8-0510cb1d030d.png)
+
+![More details on each character](https://user-images.githubusercontent.com/22137960/149924974-5216932c-827c-44a5-8823-f614a5364b39.png)
+
+![Favourite alert](https://user-images.githubusercontent.com/22137960/149924982-8d35dc14-6cc2-449e-a46d-8fd9222440cb.png)
+
+![Pagination component - can go on forever](https://user-images.githubusercontent.com/22137960/149924987-0616e98a-d7d1-4ad4-a39c-b12ef9debb39.png)
+
+
 
 ## Installation / Usage
 
