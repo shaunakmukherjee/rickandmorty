@@ -14,20 +14,6 @@ All data, as mentioned, is taken from the fantastic Rick and Morty API.
 - Pagination through page numbers from first to last index API
 - Dockerization (**bonus**) through docker-compose, making it much easier to containerize and view the app.
 
-## Screenshots
-
-<img src="https://user-images.githubusercontent.com/22137960/149924958-02fca18b-790a-487a-a92f-af49912b3b24.png" width="300" height="400">
-### Dark mode ON?
-
-<img src="https://user-images.githubusercontent.com/22137960/149924967-e5aa97c8-184e-4dfc-81c8-0510cb1d030d.png" width="300" height="400">
-### Look Morty, all these characters!
-
-<img src="https://user-images.githubusercontent.com/22137960/149924982-8d35dc14-6cc2-449e-a46d-8fd9222440cb.png" width="300" height="400">
-### Favouriting characters was never this easy.
-
-<img src="https://user-images.githubusercontent.com/22137960/149924987-0616e98a-d7d1-4ad4-a39c-b12ef9debb39.png" width="300" height="400">
-### Pagination - the list goes on and on.
-
 
 ## Installation / Usage
 
@@ -53,7 +39,6 @@ There are users already present in the system('jackie', 'jabberwocky', etc.) wit
 Of course, please feel free to create your own username and venture in!
 
 
-
 ### If not the docker route, then : 
 
 
@@ -72,4 +57,26 @@ Of course, please feel free to create your own username and venture in!
 - Navigate to the '/client' component which contains the frontend-based data
 - Run ` yarn start `
 - Go to port 3000 on browser
+
+
+
+## Screenshots
+
+<img src="https://user-images.githubusercontent.com/22137960/149924958-02fca18b-790a-487a-a92f-af49912b3b24.png" width="250" height="250">
+
+<hr />
+<img src="https://user-images.githubusercontent.com/22137960/149924967-e5aa97c8-184e-4dfc-81c8-0510cb1d030d.png" width="350" height="350">
+### Look Morty, all these characters!
+<hr />
+
+<img src="https://user-images.githubusercontent.com/22137960/149924982-8d35dc14-6cc2-449e-a46d-8fd9222440cb.png" width="300" height="300">
+### Favouriting characters was never this easy.
+<hr />
+
+<img src="https://user-images.githubusercontent.com/22137960/149924987-0616e98a-d7d1-4ad4-a39c-b12ef9debb39.png" width="400" height="400">
+### Pagination - the list goes on and on.
+<hr />
+
+
+
 
